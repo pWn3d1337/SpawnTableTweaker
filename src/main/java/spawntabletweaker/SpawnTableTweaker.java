@@ -20,8 +20,6 @@ public class SpawnTableTweaker {
     public static final String FORGE_BUILD = "14.23.5.2768";
     public static final String DEPENDENCIES = "required:forge@["+FORGE_BUILD+",);required-after:crafttweaker";
     public static final String UPDATEURL = "https://raw.githubusercontent.com/pWn3d1337/SpawnTableTweaker/master/update.json";
-    
-    //public static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -31,13 +29,4 @@ public class SpawnTableTweaker {
         CraftTweakerAPI.registerClass(SpawnTableTweakerCT.class);
     }
 
-    @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        //SpawnTableTweakerMC.addSpawnToTags("minecraft:zombie_pigman",20,1,1,"MONSTER", "minecraft:plains");
-        //SpawnTableTweakerMC.addSpawnToTags("minecraft:creeper",20,1,1,"MONSTER", "END");
-        
-        //SpawnTableTweakerMC.removeSpawnAllBiomes("minecraft:creeper", "MONSTER");
-    }
-    
 }

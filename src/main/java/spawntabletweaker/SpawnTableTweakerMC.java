@@ -47,9 +47,9 @@ public class SpawnTableTweakerMC {
 		entityMap = GameRegistry.findRegistry(EntityEntry.class).getSlaveMap(ENTITY_CLASS_TO_ENTRY, Map.class);	
 	}
 	
-	public static void addSpawnVanillaOverworldNoOcean(String registryName, int weight, int min, int max, String creaturetype) {
+	/*public static void addSpawnVanillaOverworldNoOcean(String registryName, int weight, int min, int max, String creaturetype) {
 		addSpawn(registryName, weight, min, max, creaturetype, getVanillaOverWorldNoOceanBiomes());
-	}
+	}*/
 	
 	public static void removeSpawn(String registryName, String creaturetype, String... names) {
 		Biome[] biomes = getBiomeList(names);
@@ -250,7 +250,7 @@ public class SpawnTableTweakerMC {
 		return false;
 	}
 	
-	private static Biome[] getVanillaOverWorldNoOceanBiomes() {
+	/*private static Biome[] getVanillaOverWorldNoOceanBiomes() {
 		Biome[] biomes = {
 				//Biomes.OCEAN,
 				//Biomes.DEFAULT,
@@ -317,7 +317,7 @@ public class SpawnTableTweakerMC {
 				Biomes.MUTATED_MESA_CLEAR_ROCK
 		};
 		return biomes;
-	}
+	}*/
 	
 	protected static void log(Level l, String message) {
 		if(l == Level.ERROR) {
