@@ -1,0 +1,17 @@
+[
+{
+  "modid": "spawntabletweaker",
+  "name": "SpawnTableTweaker",
+  "description": "Add mobs to spawn tables with crafttweaker.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["pWn3d_1337"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["crafttweaker"],
+  "requiredMods": ["crafttweaker"]
+}
+]
